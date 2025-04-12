@@ -1,0 +1,20 @@
+simulation:
+  start_date: '2020-01-01'
+  end_date: '2024-12-31'
+  initial_price: 100.0
+  volatility: 0.2
+  trend: 0.05
+  num_series: 1
+
+events:
+  event_frequency: 0.1
+  black_swan_frequency: 0.01
+  event_impact_std: 0.1
+  black_swan_impact_std: 0.6 # STD stands for Standard Deviation
+
+charting:
+  style: 'dark'
+  output_dir: 'output/'
+  save_charts: True
+  save_data: True
+  chart_format: 'png'
